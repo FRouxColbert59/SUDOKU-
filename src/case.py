@@ -19,6 +19,17 @@ class Case:
             (1, 9, 3)
         """
         pass
+         
+        
+        
+        self.position = pos
+        self.value = value
+        self.row = pos % 9
+        self.line = pos // 9
+        self.region = pos // 9 + 1
+    
+    
+    
     
     def setValue(self, value):
         """
